@@ -17,7 +17,13 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 
-    <nav class="navbar bg-body-tertiary">
+    <!-- As a heading -->
+    <nav class="navbar bg-body-tertiary" style="background-color: #000000;">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Navbar</span>
+        </div>
+    </nav>
+    <nav class="navbar bg-body-tertiary" style="background-color: #000000;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
@@ -26,81 +32,86 @@
             </a>
         </div>
     </nav>
-    <img src="beautiful-blur-casual-935756.jpg" class="img-fluid" alt="10" />
+    <img src="beautiful-blur-casual-935756.jpg" class="img-fluid" />
     <div class="container-fluid">
         <div class="row">
             <div class="col-6"> </div>
             <div class="col-1"> </div>
             <div class="col-4">
-    <div class="div">
-        <p>Prueba</p>
-    </div>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    Accordion Item #1 (con subacordeón)
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-    
-                    <!-- Subacordeón -->
-                    <div class="accordion mt-3" id="subAccordion">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#subCollapseOne"
-                                    aria-expanded="true" aria-controls="subCollapseOne">
-                                    Subacordeón #1
-                                </button>
-                            </h2>
-                            <div id="subCollapseOne" class="accordion-collapse collapse show" data-bs-parent="#subAccordion">
-                                <div class="accordion-body">
-                                    Contenido del subacordeón #1.
+                <div class="div">
+                    <p>Prueba</p>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1 (con subacordeón)
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                                <!-- Subacordeón -->
+                                <div class="accordion mt-3" id="subAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#subCollapseOne" aria-expanded="true"
+                                                aria-controls="subCollapseOne">
+                                                Subacordeón #1
+                                            </button>
+                                        </h2>
+                                        <div id="subCollapseOne" class="accordion-collapse collapse show"
+                                            data-bs-parent="#subAccordion">
+                                            <div class="accordion-body">
+                                                Contenido del subacordeón #1.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#subCollapseTwo"
+                                                aria-expanded="false" aria-controls="subCollapseTwo">
+                                                Subacordeón #2
+                                            </button>
+                                        </h2>
+                                        <div id="subCollapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#subAccordion">
+                                            <div class="accordion-body">
+                                                Contenido del subacordeón #2.
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#subCollapseTwo" aria-expanded="false" aria-controls="subCollapseTwo">
-                                    Subacordeón #2
-                                </button>
-                            </h2>
-                            <div id="subCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#subAccordion">
-                                <div class="accordion-body">
-                                    Contenido del subacordeón #2.
-                                </div>
+                                <!-- Fin del subacordeón -->
+
                             </div>
                         </div>
                     </div>
-                    <!-- Fin del subacordeón -->
-    
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Contenido del segundo acordeón.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Accordion Item #2
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    Contenido del segundo acordeón.
-                </div>
-            </div>
+            <div class="col-1"> </div>
+
         </div>
     </div>
-</div>
-<div class="col-1"> </div>
 
-</div>
-</div>
-    
 </body>
 
 </html>
