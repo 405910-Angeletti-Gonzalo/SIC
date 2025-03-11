@@ -22,7 +22,7 @@
 
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1 text-white">Navbar</span>
+            <span class="navbar-brand mb-0 h1 text-white">Universidad Kennedy</span>
         </div>
     </nav>
     <nav class="navbar navbar-expand-lg ">
@@ -47,8 +47,8 @@
             <div class="col-md-6"></div>
             <div class="col-md-6">
                 <div class="accordion w-100 mb-5" id="accordionExample">
-                    <!-- ACORDEÓN Aranceles -->
 
+                    <!-- ACORDEÓN ARANCELES -->
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -59,7 +59,6 @@
                         <div id="collapseOne" class="accordion-collapse collapse show"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-
                                 <!-- Subacordeón -->
                                 <div class="accordion" id="subAccordion">
                                     <div class="accordion-item">
@@ -85,18 +84,17 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#subCollapseTwo"
-                                                aria-expanded="false" aria-controls="subCollapseTwo">
+                                                data-bs-toggle="collapse" data-bs-target="#subCollapseGrupoB"
+                                                aria-expanded="false" aria-controls="subCollapseGrupoB">
                                                 GRUPO B
                                             </button>
                                         </h2>
-
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#subCollapseTwo"
-                                                aria-expanded="false" aria-controls="subCollapseTwo">
+                                                data-bs-toggle="collapse" data-bs-target="#subCollapseGrupoC"
+                                                aria-expanded="false" aria-controls="subCollapseGrupoC">
                                                 GRUPO C
                                             </button>
                                         </h2>
@@ -736,12 +734,85 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#subCollapseTwo"
-                                                aria-expanded="false" aria-controls="subCollapseTwo">
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseVirtual"
+                                                aria-expanded="false"
+                                                aria-controls="collapseVirtual">
                                                 Virtual
                                             </button>
                                         </h2>
+                                        <div id="collapseVirtual"
+                                            class="accordion-collapse collapse"
+                                            data-bs-parent="#subAccordionEmail">
+                                            <div class="accordion-body">
+                                                <!-- SUB-SUB-SUBACORDEÓN DENTRO DE "VIRTUAL" -->
+                                                <div class="accordion" id="subAccordionVirtual">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button
+                                                                class="accordion-button collapsed"
+                                                                type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapsePsicologia"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapsePsicologia">
+                                                                Analista en relaciones Laborales
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapsePsicologia"
+                                                            class="accordion-collapse collapse"
+                                                            data-bs-parent="#subAccordionVirtual">
+                                                            <div class="accordion-body">
+                                                                Contenido de Analista en relaciones Laborales.
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button
+                                                                class="accordion-button collapsed"
+                                                                type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseAbogacia"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseAbogacia">
+                                                                Lic en Administracion hotelera
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseAbogacia"
+                                                            class="accordion-collapse collapse"
+                                                            data-bs-parent="#subAccordionVirtual">
+                                                            <div class="accordion-body">
+                                                                Contenido de Lic en Administracion hotelera
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button
+                                                                class="accordion-button collapsed"
+                                                                type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseFarmacia"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseFarmacia">
+                                                                Lic en Comercialización
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseFarmacia"
+                                                            class="accordion-collapse collapse"
+                                                            data-bs-parent="#subAccordionVirtual">
+                                                            <div class="accordion-body">
+                                                                Lic en Comercialización.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Fin del sub-sub-subacordeón -->
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- Fin del subacordeón -->
