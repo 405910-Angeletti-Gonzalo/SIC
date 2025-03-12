@@ -229,23 +229,45 @@
                                                 data-bs-parent="#subAccordion">
                                                 <div class="accordion-body">
                                                     <!-- SUB-SUBACORDEÓN DENTRO DE EMAIL -->
-                                                    <div class="accordion" id="subAccordionEmail">
+                                                    <div class="accordion" id="subAccordionUKVIVO">
                                                         <div class="accordion-item">
                                                             <h2 class="accordion-header">
-                                                                <button class="accordion-button collapsed" type="button"
-                                                                    data-bs-toggle="collapse"
-                                                                    data-bs-target="#collapseLive" aria-expanded="false"
-                                                                    aria-controls="collapseLive">
-                                                                    UK en Vivo
+                                                                <button class="accordion-button collapsed" type="button" 
+                                                                data-bs-toggle="collapse"
+                                                                    data-bs-target="#collapseUKVIVO"
+                                                                    aria-expanded="false" 
+                                                                    aria-controls="collapseUKVIVO">
+                                                                    Uk en Vivo
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseLive" class="accordion-collapse collapse"
-                                                                data-bs-parent="#subAccordionEmail">
+                                                            <div id="collapseUKVIVO" class="accordion-collapse collapse show"
+                                                                data-bs-parent="#collapseVirtual">
                                                                 <div class="accordion-body">
-                                                                    Contenido de UK en Vivo.
+                                                                    <!-- Subacordeón -->
+                                                                    <div class="accordion" id="subAccordion">
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header">
+                                                                                <button class="accordion-button collapsed" type="button"
+                                                                                onclick="window.open('DocumentosQuest/PlantillasAdmisiones/UkenVivo/Campus.pdf', '_blank')">
+                                                                                    En Campus
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header">
+                                                                                <button class="accordion-button collapsed" type="button"
+                                                                                onclick="window.open('DocumentosQuest/PlantillasAdmisiones/UkenVivo/EN SEDE.pdf', '_blank')">
+                                                                                    En Sede
+                                                                                </button>
+                                                                            </h2>
+                                                                        </div>
+                                                                                                                                                                
+                                                                    </div>
+                                                                    <!-- Fin del subacordeón -->
                                                                 </div>
                                                             </div>
                                                         </div>
+
 
                                                         <!-- Opción: Virtual -->
                                                         <div class="accordion-item">
@@ -555,7 +577,7 @@
                                                                 class="accordion-collapse collapse"
                                                                 data-bs-parent="#subAccordionEmail">
                                                                 <div class="accordion-body">
-                                                                    <!-- SUB-SUB-SUBACORDEÓN DENTRO DE "VIRTUAL" -->
+                                                                    <!-- SUB-SUB-SUBACORDEÓN DENTRO DE "Presencial" -->
                                                                     <div class="accordion" id="subAccordionPresencial">
 
                                                                         <div class="accordion-item">
