@@ -1,0 +1,107 @@
+/*
+ Theme Name:   Bridge Child Theme
+ Theme URI:    http://example.com/bridge/
+ Description:  Bridge Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     bridge
+ Version:      
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  bridge
+*/
+
+/*INICIO*/
+
+
+/*.container{
+	padding-top: 50px!important;
+	padding-bottom: 50px!important;
+}*/
+
+
+/* .q_logo a{
+
+	height: 65px!important;
+
+}
+ */
+
+.widget_text.header_bottom_widget.widget_custom_html{
+	display: none;
+
+}
+
+nav.main_menu > ul > li > a {
+    color: black;
+}
+
+
+
+
+.first-row-home{
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.items-arbol{
+	text-decoration: underline
+
+}
+
+
+.wpb_widgetised_column .widget.posts_holder li {
+    padding: 0;
+    margin: 0;
+}
+
+.loginpress-show-love{
+	display: none!important;
+}
+
+.bellows.bellows-skin-vanilla .bellows-nav .bellows-item-level-0 > .bellows-target, .bellows.bellows-skin-vanilla .bellows-nav .bellows-item-level-0 > .bellows-custom-content{
+	font-weight: 700
+}
+
+a.bellows-target{
+	font-weight: 700!important;
+}
+.bellows-nav{
+
+
+box-shadow:1px 2px 14px 1px rgba(0, 0, 0, 0.09)!important;
+
+}
+/*arrow*/
+
+.bellows .bellows-nav .bellows-subtoggle {
+    width: 100%!important;
+}
+
+.bellows .bellows-nav .bellows-subtoggle .fa {
+      left: -15px!important;
+ 
+    text-align: right!important;
+}
+
+.content .container{
+	margin:20px 0;
+}
+
+.page-id-2 .content .container{
+	margin:0!important;
+}
+
+@media only screen and (min-width: 1000px){
+.content .container .container_inner.default_template_holder, .content .container .container_inner.page_container_inner {
+    padding-top: 0px;
+}
+}
+
+
+@media only screen and (max-width: 420px){
+
+
+}
+

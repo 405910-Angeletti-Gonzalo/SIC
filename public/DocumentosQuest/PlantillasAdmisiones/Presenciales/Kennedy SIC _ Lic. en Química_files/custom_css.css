@@ -1,0 +1,14 @@
+
+
+#back_to_top span i, #back_to_top span span {
+    font-size: 28px;
+}
+.footer_top .widget.widget_nav_menu li {
+    padding: 0 0 3px;
+}
+header .header_top .q_social_icon_holder{
+    float: none
+}
+.header_bottom_right_widget_holder{
+    padding-right: 5px;
+}
