@@ -56,7 +56,7 @@
                                 Aranceles
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show"
+                        <div id="collapseOne" class="accordion-collapse collapse"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <!-- Subacordeón -->
@@ -611,13 +611,39 @@
 
                                                                         <div class="accordion-item">
                                                                             <h2 class="accordion-header">
-                                                                                <button class="accordion-button collapsed" type="button"
-                                                                                onclick="window.open('DocumentosQuest/PlantillasAdmisiones/Presenciales/Arquitectura.pdf', '_blank')">
-                                                                                Cosmetología
-                                                                                Cosmetología
-                                                                                Cosmetología
+                                                                                <button class="accordion-button collapsed" type="button" 
+                                                                                data-bs-toggle="collapse"
+                                                                                    data-bs-target="#collapseCosme"
+                                                                                    aria-expanded="true" 
+                                                                                    aria-controls="collapseCosme">
+                                                                                    Cosmetología, Cosmiatría y Estética
                                                                                 </button>
                                                                             </h2>
+                                                                            <div id="collapseCosme" class="accordion-collapse collapse"
+                                                                                data-bs-parent="#collapseCosme">
+                                                                                <div class="accordion-body">
+                                                                                    <!-- Subacordeón -->
+                                                                                    <div class="accordion" id="subAccordion">
+                                                                                        <div class="accordion-item">
+                                                                                            <h2 class="accordion-header">
+                                                                                                <button class="accordion-button collapsed" type="button"
+                                                                                                onclick="window.open('DocumentosQuest/PlantillasAdmisiones/Presenciales/Tec en Cosmetologia/Cosmetología Rosario.pdf', '_blank')">
+                                                                                                Cosmetología, Cosmiatría y Estética (Rosario)
+                                                                                                </button>
+                                                                                            </h2>
+                                                                                        </div>
+                                                                                        <div class="accordion-item">
+                                                                                            <h2 class="accordion-header">
+                                                                                                <button class="accordion-button collapsed" type="button"
+                                                                                                onclick="window.open('DocumentosQuest/PlantillasAdmisiones/Presenciales/Tec en Cosmetologia/Cosmetología CABA.pdf', '_blank')">
+                                                                                                Cosmetología, Cosmiatría y Estética (CABA y Neuquen)
+                                                                                                </button>
+                                                                                            </h2>
+                                                                                        </div>                                                                                                                                                                             
+                                                                                    </div>
+                                                                                    <!-- Fin del subacordeón -->
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
 
                                                                         <div class="accordion-item">
